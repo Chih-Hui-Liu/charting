@@ -21,9 +21,9 @@ class MessageCell: UITableViewCell {
         rightImageView.layer.cornerRadius = 30
         leftImageView.layer.cornerRadius = 30
         rightView.clipsToBounds = true
-        rightView.layer.cornerRadius = label.frame.width / 2
+        rightView.layer.cornerRadius = label.frame.width / 3
         leftView.clipsToBounds = true
-        leftView.layer.cornerRadius = leftLabel.frame.width / 2
+        leftView.layer.cornerRadius = leftLabel.frame.width / 3
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
